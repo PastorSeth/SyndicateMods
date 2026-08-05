@@ -38,6 +38,11 @@ function slugify(modName) {
   if (SLUG_OVERRIDES[modName]) return SLUG_OVERRIDES[modName];
   return modName
     .toLowerCase()
+    // Strip anything in parentheses first. The syndicate data source likes
+    // to append notes like "(Rank 3)" to item names, and warframe.market's
+    // slugs don't include any of that. build-mod-list.js already removes
+    // these, but this catches anything typed in by hand later.
+    .replace(/\([^)]*\)/g, '')
     .replace(/'/g, '')
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '');
@@ -147,13 +152,23 @@ async function main() {
       const price = await getCurrentLowestPrice(slug);
       await wait(REQUEST_DELAY_MS);
 
+      // Match on slug, not name: the stored `name` is now the stripped
+      // version ("Shattering Justice") while modName still has the
+      // parenthetical attached, so matching by name would never hit and
+      // the running trade count would silently reset to zero each run.
       const previousEntry = existingData.syndicates[syndicateName]?.find(
-        (m) => m.name === modName
+        (m) => m.slug === slug
       );
       const runningTradeCount = (previousEntry?.tradeCount || 0) + (recentCounts[slug] || 0);
 
+      // Split "Shattering Justice (Sobek)" into its two useful halves so
+      // the page can show the mod name prominently and what it applies to
+      // as a quieter subtitle.
+      const parenMatch = modName.match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+
       output.syndicates[syndicateName].push({
-        name: modName,
+        name: parenMatch ? parenMatch[1] : modName,
+        appliesTo: parenMatch ? parenMatch[2] : null,
         slug,
         lowestPrice: price,
         tradeCount: runningTradeCount,
