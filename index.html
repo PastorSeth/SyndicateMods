@@ -155,6 +155,43 @@
     opacity: 0.75;
   }
 
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+
+  .filter-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    padding: 7px 12px;
+    cursor: pointer;
+  }
+
+  .filter-btn:hover {
+    color: var(--text);
+    border-color: var(--btn-accent, var(--text-muted));
+  }
+
+  .filter-btn[aria-pressed="true"] {
+    color: var(--bg);
+    background: var(--btn-accent, var(--brass));
+    border-color: var(--btn-accent, var(--brass));
+    font-weight: 500;
+  }
+
+  .filter-btn:focus-visible {
+    outline: 2px solid var(--brass);
+    outline-offset: 2px;
+  }
+
   .no-data {
     color: var(--text-muted);
     font-style: normal;
@@ -204,6 +241,10 @@
       </div>
     </header>
 
+    <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter by syndicate">
+      <!-- populated by script below -->
+    </div>
+
     <main id="content">
       <!-- populated by script below -->
     </main>
@@ -239,6 +280,101 @@
           and let the scheduled GitHub Action fill it in on its next run.
         </div>
       `;
+    }
+
+    // Holds the loaded data plus which syndicate is currently showing.
+    // "ALL" is the special value meaning "show every section".
+    const state = {
+      data: null,
+      activeSyndicate: 'ALL',
+      maxTradeCount: 1,
+    };
+
+    function accentFor(name) {
+      return ACCENT_BY_SYNDICATE[name] || 'var(--c-default)';
+    }
+
+    // Highest price first. Mods with no price yet (shown as "—") always go
+    // to the bottom rather than being treated as free.
+    function byPriceDescending(a, b) {
+      const priceA = a.lowestPrice ?? -1;
+      const priceB = b.lowestPrice ?? -1;
+      return priceB - priceA;
+    }
+
+    function renderSection(name) {
+      const mods = [...state.data.syndicates[name]].sort(byPriceDescending);
+
+      const rows = mods
+        .map((mod) => {
+          const barWidth = Math.max(
+            4,
+            Math.round(((mod.tradeCount || 0) / state.maxTradeCount) * 100)
+          );
+          return `
+            <tr>
+              <td class="mod-name">
+                ${mod.name}
+                ${mod.appliesTo ? `<span class="applies-to">${mod.appliesTo}</span>` : ''}
+              </td>
+              <td class="activity">
+                <div class="bar-track"><div class="bar-fill" style="width:${barWidth}%"></div></div>
+              </td>
+              <td class="price">${formatPlatinum(mod.lowestPrice)}</td>
+            </tr>
+          `;
+        })
+        .join('');
+
+      return `
+        <section class="syndicate" style="--accent:${accentFor(name)}">
+          <div class="syndicate-name">${name}</div>
+          <table>${rows}</table>
+        </section>
+      `;
+    }
+
+    function renderContent() {
+      const names = Object.keys(state.data.syndicates);
+      const visible =
+        state.activeSyndicate === 'ALL'
+          ? names
+          : names.filter((name) => name === state.activeSyndicate);
+
+      document.getElementById('content').innerHTML = visible.map(renderSection).join('');
+    }
+
+    function renderFilterBar() {
+      const names = Object.keys(state.data.syndicates);
+      const bar = document.getElementById('filter-bar');
+
+      const buttons = [
+        { label: 'All', value: 'ALL', accent: 'var(--brass)' },
+        ...names.map((name) => ({ label: name, value: name, accent: accentFor(name) })),
+      ];
+
+      bar.innerHTML = buttons
+        .map(
+          (btn) => `
+            <button
+              type="button"
+              class="filter-btn"
+              data-value="${btn.value}"
+              style="--btn-accent:${btn.accent}"
+              aria-pressed="${state.activeSyndicate === btn.value}"
+            >${btn.label}</button>
+          `
+        )
+        .join('');
+
+      bar.querySelectorAll('.filter-btn').forEach((button) => {
+        button.addEventListener('click', () => {
+          state.activeSyndicate = button.dataset.value;
+          // Re-render the bar so the pressed state moves, then the list.
+          renderFilterBar();
+          renderContent();
+        });
+      });
     }
 
     async function init() {
@@ -277,41 +413,14 @@
 
       if (totalMods === 0) return;
 
-      const maxTradeCount = Math.max(
+      state.data = data;
+      state.maxTradeCount = Math.max(
         1,
         ...syndicateNames.flatMap((name) => data.syndicates[name].map((m) => m.tradeCount || 0))
       );
 
-      const content = document.getElementById('content');
-      content.innerHTML = syndicateNames
-        .map((name) => {
-          const accent = ACCENT_BY_SYNDICATE[name] || 'var(--c-default)';
-          const rows = data.syndicates[name]
-            .map((mod) => {
-              const barWidth = Math.max(4, Math.round(((mod.tradeCount || 0) / maxTradeCount) * 100));
-              return `
-                <tr>
-                  <td class="mod-name">
-                    ${mod.name}
-                    ${mod.appliesTo ? `<span class="applies-to">${mod.appliesTo}</span>` : ''}
-                  </td>
-                  <td class="activity">
-                    <div class="bar-track"><div class="bar-fill" style="width:${barWidth}%"></div></div>
-                  </td>
-                  <td class="price">${formatPlatinum(mod.lowestPrice)}</td>
-                </tr>
-              `;
-            })
-            .join('');
-
-          return `
-            <section class="syndicate" style="--accent:${accent}">
-              <div class="syndicate-name">${name}</div>
-              <table>${rows}</table>
-            </section>
-          `;
-        })
-        .join('');
+      renderFilterBar();
+      renderContent();
     }
 
     init();
