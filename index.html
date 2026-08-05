@@ -234,7 +234,15 @@
     async function init() {
       let data;
       try {
-        const res = await fetch('data/market-data.json');
+        // The "?v=" bit is a cache-buster. Browsers (and GitHub Pages)
+        // will happily serve you a stale copy of a file they've seen
+        // before, which would mean the page shows yesterday's data even
+        // after a fresh run. Sticking a constantly-changing value on the
+        // end makes each request look like a brand-new URL, so you always
+        // get the current file.
+        const res = await fetch(`data/market-data.json?v=${Date.now()}`, {
+          cache: 'no-store',
+        });
         data = await res.json();
       } catch (err) {
         renderEmptyState();
