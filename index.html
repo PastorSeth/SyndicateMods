@@ -119,6 +119,16 @@
     color: var(--text);
   }
 
+  .applies-to {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
   td.price {
     font-family: 'IBM Plex Mono', monospace;
     color: var(--brass);
@@ -281,7 +291,10 @@
               const barWidth = Math.max(4, Math.round(((mod.tradeCount || 0) / maxTradeCount) * 100));
               return `
                 <tr>
-                  <td class="mod-name">${mod.name}</td>
+                  <td class="mod-name">
+                    ${mod.name}
+                    ${mod.appliesTo ? `<span class="applies-to">${mod.appliesTo}</span>` : ''}
+                  </td>
                   <td class="activity">
                     <div class="bar-track"><div class="bar-fill" style="width:${barWidth}%"></div></div>
                   </td>
