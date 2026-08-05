@@ -51,6 +51,18 @@ const EXCLUDE_KEYWORDS = [
   'relic', 'orokin cell', 'forma', 'exilus',
 ];
 
+// Item names here usually carry a useful note in parentheses telling you
+// what the mod applies to — "Shattering Justice (Sobek)" is the Sobek
+// augment. We KEEP that, because it's the most useful thing about an
+// augment mod and it gets shown on the site.
+//
+// warframe.market doesn't use it in their slugs (they just call it
+// "shattering_justice"), so update-market-data.js strips it there instead.
+// Display name and lookup key, handled separately.
+function tidyWhitespace(itemName) {
+  return itemName.replace(/\s+/g, ' ').trim();
+}
+
 function looksLikeMod(itemName) {
   const lower = itemName.toLowerCase();
   return !EXCLUDE_KEYWORDS.some((word) => lower.includes(word));
@@ -75,7 +87,8 @@ async function main() {
     }
 
     const candidateMods = offerings
-      .map((entry) => entry.item)
+      .map((entry) => tidyWhitespace(entry.item))
+      .filter((itemName) => itemName.length > 0)
       .filter((itemName, index, all) => all.indexOf(itemName) === index) // de-dupe
       .filter(looksLikeMod);
 
