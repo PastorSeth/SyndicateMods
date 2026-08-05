@@ -69,13 +69,49 @@ async function loadExistingData() {
   }
 }
 
+// Set to false to go back to counting every seller, online or not.
+const ONLINE_SELLERS_ONLY = true;
+
+// What counts as "reachable right now". warframe.market distinguishes
+// being logged into the website from being actually in-game; both are
+// fine, since either way the person can answer a message.
+const ONLINE_STATUSES = ['ingame', 'online'];
+
+function isOnline(order) {
+  const status = order.user?.status;
+  return typeof status === 'string' && ONLINE_STATUSES.includes(status.toLowerCase());
+}
+
 async function getCurrentLowestPrice(slug) {
   try {
     const { data } = await fetchJson(`${API_BASE}/orders/item/${slug}`);
-    const sellPrices = data
-      .filter((order) => order.type === 'sell' && order.visible)
-      .map((order) => order.platinum)
-      .sort((a, b) => a - b);
+    const sellOrders = data.filter((order) => order.type === 'sell' && order.visible);
+
+    let considered = sellOrders;
+
+    if (ONLINE_SELLERS_ONLY) {
+      const online = sellOrders.filter(isOnline);
+
+      // Safety net: if NOT ONE order has a readable status field, the
+      // field name has probably changed on their end rather than everyone
+      // genuinely being offline. In that case fall back to all sellers
+      // instead of silently reporting "no price" for every single mod.
+      const anyStatusFieldPresent = sellOrders.some(
+        (order) => typeof order.user?.status === 'string'
+      );
+
+      if (!anyStatusFieldPresent && sellOrders.length > 0) {
+        console.warn(
+          `    no seller status data on ${slug} — falling back to all sellers. ` +
+            `If you see this on every mod, the API field name has changed; ` +
+            `check isOnline() in this file.`
+        );
+      } else {
+        considered = online;
+      }
+    }
+
+    const sellPrices = considered.map((order) => order.platinum).sort((a, b) => a - b);
     return sellPrices.length > 0 ? sellPrices[0] : null;
   } catch (err) {
     console.warn(`    could not get price for ${slug}: ${err.message}`);
