@@ -1,0 +1,40 @@
+name: Rebuild mod list
+
+# This one does NOT run on a schedule. You trigger it by hand from the
+# Actions tab, and you'll only need it rarely:
+#
+#   - Right now, to replace the two placeholder mods with the real list.
+#   - Later, if Warframe adds new syndicate offerings.
+#
+# It overwrites data/tracked-mods.json with a freshly-pulled list of every
+# mod-looking item each syndicate offers. After it finishes, open that file
+# in your repo and delete any syndicate WEAPONS that slipped through the
+# filter (usually 1-2 per syndicate — they're the ones that look like
+# weapon names rather than mod names).
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Build the tracked mod list
+        run: node scripts/build-mod-list.js
+
+      - name: Commit updated mod list
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tracked-mods.json
+          git diff --staged --quiet && echo "No changes to commit" || git commit -m "Rebuild tracked mod list"
+          git push
