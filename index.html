@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Syndicate Mod Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0c0f;
+    --panel: #16181d;
+    --panel-border: #262930;
+    --text: #edeae2;
+    --text-muted: #8b8e96;
+    --brass: #c9a24e;
+
+    /* one accent per syndicate — matches each faction's in-game identity */
+    --c-steel-meridian: #b5432e;
+    --c-arbiters-of-hexis: #c9c2a6;
+    --c-cephalon-suda: #3e9e96;
+    --c-perrin-sequence: #7d63a8;
+    --c-red-veil: #8a1f2b;
+    --c-new-loka: #4c8a4f;
+    --c-default: #5c7a8a;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.5;
+  }
+
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+
+  header {
+    border-bottom: 1px solid var(--panel-border);
+    padding-bottom: 28px;
+    margin-bottom: 32px;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brass);
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: clamp(32px, 6vw, 48px);
+    letter-spacing: 0.01em;
+    margin: 0 0 18px;
+  }
+
+  .stat-row {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .stat-row strong {
+    color: var(--text);
+    font-size: 20px;
+    display: block;
+    font-weight: 500;
+  }
+
+  .syndicate {
+    margin-bottom: 22px;
+    border: 1px solid var(--panel-border);
+    background: var(--panel);
+    border-left: 3px solid var(--accent, var(--c-default));
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .syndicate-name {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 16px 20px 12px;
+    color: var(--accent, var(--c-default));
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr:not(:last-child) td {
+    border-bottom: 1px solid var(--panel-border);
+  }
+
+  td {
+    padding: 10px 20px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+
+  td.mod-name {
+    color: var(--text);
+  }
+
+  td.price {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--brass);
+    text-align: right;
+    white-space: nowrap;
+    width: 90px;
+  }
+
+  td.activity {
+    width: 140px;
+  }
+
+  .bar-track {
+    background: #0000;
+    border: 1px solid var(--panel-border);
+    border-radius: 3px;
+    height: 8px;
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    height: 100%;
+    background: var(--accent, var(--c-default));
+    opacity: 0.75;
+  }
+
+  .no-data {
+    color: var(--text-muted);
+    font-style: normal;
+  }
+
+  .empty-state {
+    border: 1px dashed var(--panel-border);
+    border-radius: 6px;
+    padding: 40px 28px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 15px;
+  }
+
+  .empty-state code {
+    font-family: 'IBM Plex Mono', monospace;
+    background: var(--panel);
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: var(--brass);
+    font-size: 13px;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  a { color: var(--brass); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .syndicate { transition: border-color 0.2s ease; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">warframe.market · syndicate tracker</p>
+      <h1>Syndicate Mod Ledger</h1>
+      <div class="stat-row" id="stat-row">
+        <div><strong id="stat-mods">—</strong>mods tracked</div>
+        <div><strong id="stat-syndicates">—</strong>syndicates</div>
+        <div><strong id="stat-updated">—</strong>last updated</div>
+      </div>
+    </header>
+
+    <main id="content">
+      <!-- populated by script below -->
+    </main>
+
+    <footer>
+      Price and activity data from warframe.market, refreshed on a schedule via GitHub Actions.
+      Syndicate offerings sourced from the Warframe community drop-data project.
+    </footer>
+  </div>
+
+  <script>
+    const ACCENT_BY_SYNDICATE = {
+      'Steel Meridian': 'var(--c-steel-meridian)',
+      'Arbiters of Hexis': 'var(--c-arbiters-of-hexis)',
+      'Cephalon Suda': 'var(--c-cephalon-suda)',
+      'The Perrin Sequence': 'var(--c-perrin-sequence)',
+      'Red Veil': 'var(--c-red-veil)',
+      'New Loka': 'var(--c-new-loka)',
+    };
+
+    function formatPlatinum(value) {
+      if (value === null || value === undefined) {
+        return '<span class="no-data">—</span>';
+      }
+      return `${value}p`;
+    }
+
+    function renderEmptyState() {
+      document.getElementById('content').innerHTML = `
+        <div class="empty-state">
+          No data yet. Run <code>npm run update-market-data</code> locally once
+          (after reviewing <code>data/tracked-mods.json</code>), or push this repo
+          and let the scheduled GitHub Action fill it in on its next run.
+        </div>
+      `;
+    }
+
+    async function init() {
+      let data;
+      try {
+        const res = await fetch('data/market-data.json');
+        data = await res.json();
+      } catch (err) {
+        renderEmptyState();
+        return;
+      }
+
+      if (!data.lastUpdated) {
+        renderEmptyState();
+      }
+
+      const syndicateNames = Object.keys(data.syndicates || {});
+      const totalMods = syndicateNames.reduce(
+        (sum, name) => sum + data.syndicates[name].length,
+        0
+      );
+
+      document.getElementById('stat-mods').textContent = totalMods;
+      document.getElementById('stat-syndicates').textContent = syndicateNames.length;
+      document.getElementById('stat-updated').textContent = data.lastUpdated
+        ? new Date(data.lastUpdated).toLocaleString()
+        : 'never';
+
+      if (totalMods === 0) return;
+
+      const maxTradeCount = Math.max(
+        1,
+        ...syndicateNames.flatMap((name) => data.syndicates[name].map((m) => m.tradeCount || 0))
+      );
+
+      const content = document.getElementById('content');
+      content.innerHTML = syndicateNames
+        .map((name) => {
+          const accent = ACCENT_BY_SYNDICATE[name] || 'var(--c-default)';
+          const rows = data.syndicates[name]
+            .map((mod) => {
+              const barWidth = Math.max(4, Math.round(((mod.tradeCount || 0) / maxTradeCount) * 100));
+              return `
+                <tr>
+                  <td class="mod-name">${mod.name}</td>
+                  <td class="activity">
+                    <div class="bar-track"><div class="bar-fill" style="width:${barWidth}%"></div></div>
+                  </td>
+                  <td class="price">${formatPlatinum(mod.lowestPrice)}</td>
+                </tr>
+              `;
+            })
+            .join('');
+
+          return `
+            <section class="syndicate" style="--accent:${accent}">
+              <div class="syndicate-name">${name}</div>
+              <table>${rows}</table>
+            </section>
+          `;
+        })
+        .join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>

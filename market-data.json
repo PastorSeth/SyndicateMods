@@ -1,0 +1,12 @@
+{
+  "lastUpdated": null,
+  "lastSeenOrderTime": null,
+  "syndicates": {
+    "Arbiters of Hexis": [
+      { "name": "Rebuke", "slug": "rebuke", "lowestPrice": null, "tradeCount": 0 }
+    ],
+    "The Perrin Sequence": [
+      { "name": "Pilfering Swarm", "slug": "pilfering_swarm", "lowestPrice": null, "tradeCount": 0 }
+    ]
+  }
+}

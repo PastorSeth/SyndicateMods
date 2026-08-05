@@ -1,0 +1,13 @@
+{
+  "name": "wm-syndicate-mods",
+  "version": "1.0.0",
+  "description": "Tracks warframe.market prices and trade activity for syndicate-reward mods, grouped by syndicate.",
+  "type": "module",
+  "scripts": {
+    "build-mod-list": "node scripts/build-mod-list.js",
+    "update-market-data": "node scripts/update-market-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
