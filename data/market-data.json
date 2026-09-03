@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-02T05:34:24.506Z",
-  "lastSeenOrderTime": "2026-09-02T05:33:38Z",
+  "lastUpdated": "2026-09-03T05:34:50.006Z",
+  "lastSeenOrderTime": "2026-09-03T05:34:34Z",
   "syndicates": {
     "Steel Meridian": [
       {
@@ -21,49 +21,49 @@
         "name": "Velocitus Receiver",
         "appliesTo": null,
         "slug": "velocitus_receiver",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Corvas Stock",
         "appliesTo": null,
         "slug": "corvas_stock",
-        "lowestPrice": 12,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Agkuza Guard",
         "appliesTo": null,
         "slug": "agkuza_guard",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Fluctus Stock",
         "appliesTo": null,
         "slug": "fluctus_stock",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Scattered Justice",
         "appliesTo": "Hek",
         "slug": "scattered_justice",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Justice Blades",
         "appliesTo": "Dual Cleavers",
         "slug": "justice_blades",
-        "lowestPrice": 9,
+        "lowestPrice": 7,
         "tradeCount": 0
       },
       {
         "name": "Neutralizing Justice",
         "appliesTo": "Miter",
         "slug": "neutralizing_justice",
-        "lowestPrice": 9,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -77,119 +77,119 @@
         "name": "Path of Statues",
         "appliesTo": "Atlas",
         "slug": "path_of_statues",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Tectonic Fracture",
         "appliesTo": "Atlas",
         "slug": "tectonic_fracture",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Ore Gaze",
         "appliesTo": "Atlas",
         "slug": "ore_gaze",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Titanic Rumbler",
         "appliesTo": "Atlas",
         "slug": "titanic_rumbler",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Rubble Heap",
         "appliesTo": "Atlas",
         "slug": "rubble_heap",
-        "lowestPrice": 11,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Prismatic Companion",
         "appliesTo": "Citrine",
         "slug": "prismatic_companion",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Recrystalize",
         "appliesTo": "Citrine",
         "slug": "recrystalize",
-        "lowestPrice": 11,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Fireball Frenzy",
         "appliesTo": "Ember",
         "slug": "fireball_frenzy",
-        "lowestPrice": 12,
+        "lowestPrice": 20,
         "tradeCount": 0
       },
       {
         "name": "Immolated Radiance",
         "appliesTo": "Ember",
         "slug": "immolated_radiance",
-        "lowestPrice": 14,
+        "lowestPrice": 25,
         "tradeCount": 0
       },
       {
         "name": "Healing Flame",
         "appliesTo": "Ember",
         "slug": "healing_flame",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Exothermic",
         "appliesTo": "Ember",
         "slug": "exothermic",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Surging Dash",
         "appliesTo": "Excalibur",
         "slug": "surging_dash",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Radiant Finish",
         "appliesTo": "Excalibur",
         "slug": "radiant_finish",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Furious Javelin",
         "appliesTo": "Excalibur",
         "slug": "furious_javelin",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Chromatic Blade",
         "appliesTo": "Excalibur",
         "slug": "chromatic_blade",
-        "lowestPrice": 9,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Freeze Force",
         "appliesTo": "Frost",
         "slug": "freeze_force",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Ice Wave Impedance",
         "appliesTo": "Frost",
         "slug": "ice_wave_impedance",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -203,14 +203,14 @@
         "name": "Icy Avalanche",
         "appliesTo": "Frost",
         "slug": "icy_avalanche",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Biting Frost",
         "appliesTo": "Frost",
         "slug": "biting_frost",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
@@ -245,21 +245,21 @@
         "name": "Hearty Nourishment",
         "appliesTo": "Grendel",
         "slug": "hearty_nourishment",
-        "lowestPrice": 12,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
         "name": "Catapult",
         "appliesTo": "Grendel",
         "slug": "catapult",
-        "lowestPrice": 14,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Gastro",
         "appliesTo": "Grendel",
         "slug": "gastro",
-        "lowestPrice": 14,
+        "lowestPrice": 18,
         "tradeCount": 0
       },
       {
@@ -280,7 +280,7 @@
         "name": "Pilfering Strangledome",
         "appliesTo": "Khora",
         "slug": "pilfering_strangledome",
-        "lowestPrice": 8,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
@@ -322,42 +322,42 @@
         "name": "Mesa's Waltz",
         "appliesTo": "Mesa",
         "slug": "mesas_waltz",
-        "lowestPrice": 7,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Pyroclastic Flow",
         "appliesTo": "Nezha",
         "slug": "pyroclastic_flow",
-        "lowestPrice": 14,
+        "lowestPrice": 20,
         "tradeCount": 0
       },
       {
         "name": "Reaping Chakram",
         "appliesTo": "Nezha",
         "slug": "reaping_chakram",
-        "lowestPrice": 12,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Safeguard",
         "appliesTo": "Nezha",
         "slug": "safeguard",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Divine Retribution",
         "appliesTo": "Nezha",
         "slug": "divine_retribution",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Controlled Slide",
         "appliesTo": "Nezha",
         "slug": "controlled_slide",
-        "lowestPrice": 11,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -371,7 +371,7 @@
         "name": "Larva Burst",
         "appliesTo": "Nidus",
         "slug": "larva_burst",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -385,7 +385,7 @@
         "name": "Insatiable",
         "appliesTo": "Nidus",
         "slug": "insatiable",
-        "lowestPrice": 5,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -399,21 +399,21 @@
         "name": "Neutron Star",
         "appliesTo": "Nova",
         "slug": "neutron_star",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Antimatter Absorb",
         "appliesTo": "Nova",
         "slug": "antimatter_absorb",
-        "lowestPrice": 8,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Escape Velocity",
         "appliesTo": "Nova",
         "slug": "escape_velocity",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -434,14 +434,14 @@
         "name": "Hallowed Eruption",
         "appliesTo": "Oberon",
         "slug": "hallowed_eruption",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Phoenix Renewal",
         "appliesTo": "Oberon",
         "slug": "phoenix_renewal",
-        "lowestPrice": 10,
+        "lowestPrice": 7,
         "tradeCount": 0
       },
       {
@@ -462,28 +462,28 @@
         "name": "Fused Crucible",
         "appliesTo": "Qorvex",
         "slug": "fused_crucible",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Ironclad Charge",
         "appliesTo": "Rhino",
         "slug": "ironclad_charge",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Iron Shrapnel",
         "appliesTo": "Rhino",
         "slug": "iron_shrapnel",
-        "lowestPrice": 7,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Piercing Roar",
         "appliesTo": "Rhino",
         "slug": "piercing_roar",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -497,21 +497,21 @@
         "name": "Venom Dose",
         "appliesTo": "Saryn",
         "slug": "venom_dose",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Revealing Spores",
         "appliesTo": "Saryn",
         "slug": "revealing_spores",
-        "lowestPrice": 9,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Regenerative Molt",
         "appliesTo": "Saryn",
         "slug": "regenerative_molt",
-        "lowestPrice": 12,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -532,14 +532,14 @@
         "name": "Ulfrun's Endurance",
         "appliesTo": "Voruna",
         "slug": "ulfruns_endurance",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Vampiric Grasp",
         "appliesTo": "Xaku",
         "slug": "vampiric_grasp",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -553,35 +553,35 @@
         "name": "Untime Rift",
         "appliesTo": "Xaku",
         "slug": "untime_rift",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Rhythm Guard",
         "appliesTo": "Temple",
         "slug": "rhythm_guard",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Vaykor Marelok",
         "appliesTo": null,
         "slug": "vaykor_marelok",
-        "lowestPrice": 30,
+        "lowestPrice": 29,
         "tradeCount": 0
       },
       {
         "name": "Vaykor Hek",
         "appliesTo": null,
         "slug": "vaykor_hek",
-        "lowestPrice": 24,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
         "name": "Vaykor Sydon",
         "appliesTo": null,
         "slug": "vaykor_sydon",
-        "lowestPrice": 28,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
@@ -623,7 +623,7 @@
         "name": "Grineer Asteroid Simulacrum",
         "appliesTo": null,
         "slug": "grineer_asteroid_simulacrum",
-        "lowestPrice": null,
+        "lowestPrice": 31,
         "tradeCount": 0
       },
       {
@@ -646,35 +646,35 @@
         "name": "Decurion Barrel",
         "appliesTo": null,
         "slug": "decurion_barrel",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Phaedra Barrel",
         "appliesTo": null,
         "slug": "phaedra_barrel",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Corvas Barrel",
         "appliesTo": null,
         "slug": "corvas_barrel",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Cyngas Barrel",
         "appliesTo": null,
         "slug": "cyngas_barrel",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Centaur Aegis",
         "appliesTo": null,
         "slug": "centaur_aegis",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -695,28 +695,28 @@
         "name": "Avenging Truth",
         "appliesTo": "Silva & Aegis",
         "slug": "avenging_truth",
-        "lowestPrice": 13,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Stinging Truth",
         "appliesTo": "Viper",
         "slug": "stinging_truth",
-        "lowestPrice": 15,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Seeking Shuriken",
         "appliesTo": "Ash",
         "slug": "seeking_shuriken",
-        "lowestPrice": 7,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Smoke Shadow",
         "appliesTo": "Ash",
         "slug": "smoke_shadow",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
@@ -737,28 +737,28 @@
         "name": "Elusive Retribution",
         "appliesTo": "Baruuk",
         "slug": "elusive_retribution",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Endless Lullaby",
         "appliesTo": "Baruuk",
         "slug": "endless_lullaby",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Reactive Storm",
         "appliesTo": "Baruuk",
         "slug": "reactive_storm",
-        "lowestPrice": 9,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Duality",
         "appliesTo": "Equinox",
         "slug": "duality",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -772,35 +772,35 @@
         "name": "Peaceful Provocation",
         "appliesTo": "Equinox",
         "slug": "peaceful_provocation",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Energy Transfer",
         "appliesTo": "Equinox",
         "slug": "energy_transfer",
-        "lowestPrice": 15,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Surging Dash",
         "appliesTo": "Excalibur",
         "slug": "surging_dash",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Radiant Finish",
         "appliesTo": "Excalibur",
         "slug": "radiant_finish",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Furious Javelin",
         "appliesTo": "Excalibur",
         "slug": "furious_javelin",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -814,14 +814,14 @@
         "name": "Warrior's Rest",
         "appliesTo": "Excalibur Umbra",
         "slug": "warriors_rest",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Shattered Storm",
         "appliesTo": "Gara",
         "slug": "shattered_storm",
-        "lowestPrice": 13,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
@@ -835,28 +835,28 @@
         "name": "Spectrosiphon",
         "appliesTo": "Gara",
         "slug": "spectrosiphon",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Mach Crash",
         "appliesTo": "Gauss",
         "slug": "mach_crash",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Thermal Transfer",
         "appliesTo": "Gauss",
         "slug": "thermal_transfer",
-        "lowestPrice": 7,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Conductive Sphere",
         "appliesTo": "Gyre",
         "slug": "conductive_sphere",
-        "lowestPrice": 12,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -877,77 +877,77 @@
         "name": "Reverse Rotorswell",
         "appliesTo": "Gyre",
         "slug": "reverse_rotorswell",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Tribunal",
         "appliesTo": "Harrow",
         "slug": "tribunal",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Warding Thurible",
         "appliesTo": "Harrow",
         "slug": "warding_thurible",
-        "lowestPrice": 20,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Lasting Covenant",
         "appliesTo": "Harrow",
         "slug": "lasting_covenant",
-        "lowestPrice": 8,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Desiccation's Curse",
         "appliesTo": "Inaros",
         "slug": "desiccations_curse",
-        "lowestPrice": 20,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Elemental Sandstorm",
         "appliesTo": "Inaros",
         "slug": "elemental_sandstorm",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Jade's Judgment",
         "appliesTo": "Jade",
         "slug": "jades_judgment",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Omikuji's Fortune",
         "appliesTo": "Koumei",
         "slug": "omikujis_fortune",
-        "lowestPrice": 12,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Rift Haven",
         "appliesTo": "Limbo",
         "slug": "rift_haven",
-        "lowestPrice": 20,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Rift Torrent",
         "appliesTo": "Limbo",
         "slug": "rift_torrent",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Cataclysmic Continuum",
         "appliesTo": "Limbo",
         "slug": "cataclysmic_continuum",
-        "lowestPrice": 7,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -961,7 +961,7 @@
         "name": "Damage Decoy",
         "appliesTo": "Loki",
         "slug": "damage_decoy",
-        "lowestPrice": 20,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -975,21 +975,21 @@
         "name": "Safeguard Switch",
         "appliesTo": "Loki",
         "slug": "safeguard_switch",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Irradiating Disarm",
         "appliesTo": "Loki",
         "slug": "irradiating_disarm",
-        "lowestPrice": 9,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Hall of Malevolence",
         "appliesTo": "Mirage",
         "slug": "hall_of_malevolence",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
@@ -1003,14 +1003,14 @@
         "name": "Total Eclipse",
         "appliesTo": "Mirage",
         "slug": "total_eclipse",
-        "lowestPrice": 8,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Mind Freak",
         "appliesTo": "Nyx",
         "slug": "mind_freak",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -1024,7 +1024,7 @@
         "name": "Chaos Sphere",
         "appliesTo": "Nyx",
         "slug": "chaos_sphere",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -1038,7 +1038,7 @@
         "name": "Repair Dispensary",
         "appliesTo": "Protea",
         "slug": "repair_dispensary",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -1059,21 +1059,21 @@
         "name": "Axios Javelineers",
         "appliesTo": "Styanax",
         "slug": "axios_javelineers",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Tharros Lethality",
         "appliesTo": "Styanax",
         "slug": "tharros_lethality",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Intrepid Stand",
         "appliesTo": "Styanax",
         "slug": "intrepid_stand",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
@@ -1087,7 +1087,7 @@
         "name": "Shocking Speed",
         "appliesTo": "Volt",
         "slug": "shocking_speed",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -1101,21 +1101,21 @@
         "name": "Capacitance",
         "appliesTo": "Volt",
         "slug": "capacitance",
-        "lowestPrice": 15,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Celestial Stomp",
         "appliesTo": "Wukong",
         "slug": "celestial_stomp",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Enveloping Cloud",
         "appliesTo": "Wukong",
         "slug": "enveloping_cloud",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -1136,7 +1136,7 @@
         "name": "Kumihimo Loading",
         "appliesTo": "Koumei",
         "slug": "kumihimo_loading",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
@@ -1150,14 +1150,14 @@
         "name": "Telos Boltor",
         "appliesTo": null,
         "slug": "telos_boltor",
-        "lowestPrice": 25,
+        "lowestPrice": 29,
         "tradeCount": 0
       },
       {
         "name": "Telos Boltace",
         "appliesTo": null,
         "slug": "telos_boltace",
-        "lowestPrice": 25,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
@@ -1171,42 +1171,42 @@
         "name": "Arbiters Combat Emote",
         "appliesTo": null,
         "slug": "arbiters_combat_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Arbiters Engineering Emote",
         "appliesTo": null,
         "slug": "arbiters_engineering_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Arbiters Gunnery Emote",
         "appliesTo": null,
         "slug": "arbiters_gunnery_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Arbiters Piloting Emote",
         "appliesTo": null,
         "slug": "arbiters_piloting_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Arbiters Endurance Emote",
         "appliesTo": null,
         "slug": "arbiters_endurance_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Zanuka Arena Simulacrum",
         "appliesTo": null,
         "slug": "zanuka_arena_simulacrum",
-        "lowestPrice": 50,
+        "lowestPrice": 100,
         "tradeCount": 0
       },
       {
@@ -1229,14 +1229,14 @@
         "name": "Decurion Receiver",
         "appliesTo": null,
         "slug": "decurion_receiver",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Velocitus Barrel",
         "appliesTo": null,
         "slug": "velocitus_barrel",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -1250,84 +1250,84 @@
         "name": "Cyngas Receiver",
         "appliesTo": null,
         "slug": "cyngas_receiver",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Fluctus Barrel",
         "appliesTo": null,
         "slug": "fluctus_barrel",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Entropy Spike",
         "appliesTo": "Bolto",
         "slug": "entropy_spike",
-        "lowestPrice": 8,
+        "lowestPrice": 17,
         "tradeCount": 0
       },
       {
         "name": "Entropy Flight",
         "appliesTo": "Kestrel",
         "slug": "entropy_flight",
-        "lowestPrice": 12,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Entropy Detonation",
         "appliesTo": "Obex",
         "slug": "entropy_detonation",
-        "lowestPrice": 15,
+        "lowestPrice": 20,
         "tradeCount": 0
       },
       {
         "name": "Entropy Burst",
         "appliesTo": "Supra",
         "slug": "entropy_burst",
-        "lowestPrice": 8,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Sonic Fracture",
         "appliesTo": "Banshee",
         "slug": "sonic_fracture",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Resonance",
         "appliesTo": "Banshee",
         "slug": "resonance",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Savage Silence",
         "appliesTo": "Banshee",
         "slug": "savage_silence",
-        "lowestPrice": 19,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Resonating Quake",
         "appliesTo": "Banshee",
         "slug": "resonating_quake",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Razor Mortar",
         "appliesTo": "Caliban",
         "slug": "razor_mortar",
-        "lowestPrice": 9,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Afterburn",
         "appliesTo": "Chroma",
         "slug": "afterburn",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -1341,28 +1341,28 @@
         "name": "Vexing Retaliation",
         "appliesTo": "Chroma",
         "slug": "vexing_retaliation",
-        "lowestPrice": 11,
+        "lowestPrice": 18,
         "tradeCount": 0
       },
       {
         "name": "Guided Effigy",
         "appliesTo": "Chroma",
         "slug": "guided_effigy",
-        "lowestPrice": 13,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Freeze Force",
         "appliesTo": "Frost",
         "slug": "freeze_force",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Ice Wave Impedance",
         "appliesTo": "Frost",
         "slug": "ice_wave_impedance",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -1376,28 +1376,28 @@
         "name": "Icy Avalanche",
         "appliesTo": "Frost",
         "slug": "icy_avalanche",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Biting Frost",
         "appliesTo": "Frost",
         "slug": "biting_frost",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Balefire Surge",
         "appliesTo": "Hildryn",
         "slug": "balefire_surge",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Blazing Pillage",
         "appliesTo": "Hildryn",
         "slug": "blazing_pillage",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -1411,14 +1411,14 @@
         "name": "Viral Tempest",
         "appliesTo": "Hydroid",
         "slug": "viral_tempest",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Tidal Impunity",
         "appliesTo": "Hydroid",
         "slug": "tidal_impunity",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -1432,63 +1432,63 @@
         "name": "Pilfering Swarm",
         "appliesTo": "Hydroid",
         "slug": "pilfering_swarm",
-        "lowestPrice": 11,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Empowered Quiver",
         "appliesTo": "Ivara",
         "slug": "empowered_quiver",
-        "lowestPrice": 17,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Piercing Navigator",
         "appliesTo": "Ivara",
         "slug": "piercing_navigator",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Infiltrate",
         "appliesTo": "Ivara",
         "slug": "infiltrate",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Concentrated Arrow",
         "appliesTo": "Ivara",
         "slug": "concentrated_arrow",
-        "lowestPrice": 18,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Rift Haven",
         "appliesTo": "Limbo",
         "slug": "rift_haven",
-        "lowestPrice": 20,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Rift Torrent",
         "appliesTo": "Limbo",
         "slug": "rift_torrent",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Cataclysmic Continuum",
         "appliesTo": "Limbo",
         "slug": "cataclysmic_continuum",
-        "lowestPrice": 7,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Hall of Malevolence",
         "appliesTo": "Mirage",
         "slug": "hall_of_malevolence",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
@@ -1502,63 +1502,63 @@
         "name": "Total Eclipse",
         "appliesTo": "Mirage",
         "slug": "total_eclipse",
-        "lowestPrice": 8,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Pyroclastic Flow",
         "appliesTo": "Nezha",
         "slug": "pyroclastic_flow",
-        "lowestPrice": 14,
+        "lowestPrice": 20,
         "tradeCount": 0
       },
       {
         "name": "Reaping Chakram",
         "appliesTo": "Nezha",
         "slug": "reaping_chakram",
-        "lowestPrice": 12,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Safeguard",
         "appliesTo": "Nezha",
         "slug": "safeguard",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Divine Retribution",
         "appliesTo": "Nezha",
         "slug": "divine_retribution",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Controlled Slide",
         "appliesTo": "Nezha",
         "slug": "controlled_slide",
-        "lowestPrice": 11,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Neutron Star",
         "appliesTo": "Nova",
         "slug": "neutron_star",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Antimatter Absorb",
         "appliesTo": "Nova",
         "slug": "antimatter_absorb",
-        "lowestPrice": 8,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Escape Velocity",
         "appliesTo": "Nova",
         "slug": "escape_velocity",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -1572,7 +1572,7 @@
         "name": "Partitioned Mallet",
         "appliesTo": "Octavia",
         "slug": "partitioned_mallet",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -1593,7 +1593,7 @@
         "name": "Fused Crucible",
         "appliesTo": "Qorvex",
         "slug": "fused_crucible",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -1607,14 +1607,14 @@
         "name": "Mesmer Shield",
         "appliesTo": "Revenant",
         "slug": "mesmer_shield",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Blinding Reave",
         "appliesTo": "Revenant",
         "slug": "blinding_reave",
-        "lowestPrice": 14,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -1635,35 +1635,35 @@
         "name": "Tesla Bank",
         "appliesTo": "Vauban",
         "slug": "tesla_bank",
-        "lowestPrice": 11,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Repelling Bastille",
         "appliesTo": "Vauban",
         "slug": "repelling_bastille",
-        "lowestPrice": 11,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Photon Repeater",
         "appliesTo": "Vauban",
         "slug": "photon_repeater",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Fused Reservoir",
         "appliesTo": "Wisp",
         "slug": "fused_reservoir",
-        "lowestPrice": 8,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Critical Surge",
         "appliesTo": "Wisp",
         "slug": "critical_surge",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -1677,7 +1677,7 @@
         "name": "Vampiric Grasp",
         "appliesTo": "Xaku",
         "slug": "vampiric_grasp",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -1691,21 +1691,21 @@
         "name": "Untime Rift",
         "appliesTo": "Xaku",
         "slug": "untime_rift",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Merulina Guardian",
         "appliesTo": "Yareli",
         "slug": "merulina_guardian",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Loyal Merulina",
         "appliesTo": "Yareli",
         "slug": "loyal_merulina",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -1726,21 +1726,21 @@
         "name": "Synoid Gammacor",
         "appliesTo": null,
         "slug": "synoid_gammacor",
-        "lowestPrice": 20,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
         "name": "Synoid Simulor",
         "appliesTo": null,
         "slug": "synoid_simulor",
-        "lowestPrice": 34,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
         "name": "Synoid Heliocor",
         "appliesTo": null,
         "slug": "synoid_heliocor",
-        "lowestPrice": 30,
+        "lowestPrice": 40,
         "tradeCount": 0
       },
       {
@@ -1754,35 +1754,35 @@
         "name": "Cephalon Suda Combat Emote",
         "appliesTo": null,
         "slug": "cephalon_suda_combat_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Cephalon Suda Engineering Emote",
         "appliesTo": null,
         "slug": "cephalon_suda_engineering_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Cephalon Suda Gunnery Emote",
         "appliesTo": null,
         "slug": "cephalon_suda_gunnery_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Cephalon Suda Piloting Emote",
         "appliesTo": null,
         "slug": "cephalon_suda_piloting_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
         "name": "Cephalon Suda Endurance Emote",
         "appliesTo": null,
         "slug": "cephalon_suda_endurance_emote",
-        "lowestPrice": null,
+        "lowestPrice": 125,
         "tradeCount": 0
       },
       {
@@ -1805,98 +1805,98 @@
         "name": "Onorix Handle",
         "appliesTo": null,
         "slug": "onorix_handle",
-        "lowestPrice": 9,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Phaedra Receiver",
         "appliesTo": null,
         "slug": "phaedra_receiver",
-        "lowestPrice": 20,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Centaur Blade",
         "appliesTo": null,
         "slug": "centaur_blade",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Cyngas Stock",
         "appliesTo": null,
         "slug": "cyngas_stock",
-        "lowestPrice": 19,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Toxic Sequence",
         "appliesTo": "Acrid",
         "slug": "toxic_sequence",
-        "lowestPrice": 20,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Deadly Sequence",
         "appliesTo": "Grinlok",
         "slug": "deadly_sequence",
-        "lowestPrice": 14,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Voltage Sequence",
         "appliesTo": "Lanka",
         "slug": "voltage_sequence",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Sequence Burn",
         "appliesTo": "Spectra",
         "slug": "sequence_burn",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Sonic Fracture",
         "appliesTo": "Banshee",
         "slug": "sonic_fracture",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Resonance",
         "appliesTo": "Banshee",
         "slug": "resonance",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Savage Silence",
         "appliesTo": "Banshee",
         "slug": "savage_silence",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Resonating Quake",
         "appliesTo": "Banshee",
         "slug": "resonating_quake",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Razor Mortar",
         "appliesTo": "Caliban",
         "slug": "razor_mortar",
-        "lowestPrice": 9,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Afterburn",
         "appliesTo": "Chroma",
         "slug": "afterburn",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -1910,42 +1910,42 @@
         "name": "Vexing Retaliation",
         "appliesTo": "Chroma",
         "slug": "vexing_retaliation",
-        "lowestPrice": 11,
+        "lowestPrice": 18,
         "tradeCount": 0
       },
       {
         "name": "Guided Effigy",
         "appliesTo": "Chroma",
         "slug": "guided_effigy",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Spectral Spirit",
         "appliesTo": "Dagath",
         "slug": "spectral_spirit",
-        "lowestPrice": 13,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Mach Crash",
         "appliesTo": "Gauss",
         "slug": "mach_crash",
-        "lowestPrice": 15,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Thermal Transfer",
         "appliesTo": "Gauss",
         "slug": "thermal_transfer",
-        "lowestPrice": 7,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Conductive Sphere",
         "appliesTo": "Gyre",
         "slug": "conductive_sphere",
-        "lowestPrice": 12,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -1966,21 +1966,21 @@
         "name": "Reverse Rotorswell",
         "appliesTo": "Gyre",
         "slug": "reverse_rotorswell",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Balefire Surge",
         "appliesTo": "Hildryn",
         "slug": "balefire_surge",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Blazing Pillage",
         "appliesTo": "Hildryn",
         "slug": "blazing_pillage",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -1994,77 +1994,77 @@
         "name": "Desiccation's Curse",
         "appliesTo": "Inaros",
         "slug": "desiccations_curse",
-        "lowestPrice": 20,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Elemental Sandstorm",
         "appliesTo": "Inaros",
         "slug": "elemental_sandstorm",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Empowered Quiver",
         "appliesTo": "Ivara",
         "slug": "empowered_quiver",
-        "lowestPrice": 17,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Piercing Navigator",
         "appliesTo": "Ivara",
         "slug": "piercing_navigator",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Infiltrate",
         "appliesTo": "Ivara",
         "slug": "infiltrate",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Concentrated Arrow",
         "appliesTo": "Ivara",
         "slug": "concentrated_arrow",
-        "lowestPrice": 18,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Greedy Pull",
         "appliesTo": "Mag",
         "slug": "greedy_pull",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Magnetized Discharge",
         "appliesTo": "Mag",
         "slug": "magnetized_discharge",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Counter Pulse",
         "appliesTo": "Mag",
         "slug": "counter_pulse",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Fracturing Crush",
         "appliesTo": "Mag",
         "slug": "fracturing_crush",
-        "lowestPrice": 12,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Soul Survivor",
         "appliesTo": "Nekros",
         "slug": "soul_survivor",
-        "lowestPrice": 12,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -2099,7 +2099,7 @@
         "name": "Larva Burst",
         "appliesTo": "Nidus",
         "slug": "larva_burst",
-        "lowestPrice": 14,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -2113,35 +2113,35 @@
         "name": "Insatiable",
         "appliesTo": "Nidus",
         "slug": "insatiable",
-        "lowestPrice": 5,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Abundant Mutation",
         "appliesTo": "Nidus",
         "slug": "abundant_mutation",
-        "lowestPrice": 12,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Repair Dispensary",
         "appliesTo": "Protea",
         "slug": "repair_dispensary",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Temporal Artillery",
         "appliesTo": "Protea",
         "slug": "temporal_artillery",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Temporal Erosion",
         "appliesTo": "Protea",
         "slug": "temporal_erosion",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -2155,35 +2155,35 @@
         "name": "Mesmer Shield",
         "appliesTo": "Revenant",
         "slug": "mesmer_shield",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Blinding Reave",
         "appliesTo": "Revenant",
         "slug": "blinding_reave",
-        "lowestPrice": 14,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Ironclad Charge",
         "appliesTo": "Rhino",
         "slug": "ironclad_charge",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Iron Shrapnel",
         "appliesTo": "Rhino",
         "slug": "iron_shrapnel",
-        "lowestPrice": 7,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Piercing Roar",
         "appliesTo": "Rhino",
         "slug": "piercing_roar",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2197,7 +2197,7 @@
         "name": "Pool Of Life",
         "appliesTo": "Trinity",
         "slug": "pool_of_life",
-        "lowestPrice": 14,
+        "lowestPrice": 18,
         "tradeCount": 0
       },
       {
@@ -2211,7 +2211,7 @@
         "name": "Abating Link",
         "appliesTo": "Trinity",
         "slug": "abating_link",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -2225,14 +2225,14 @@
         "name": "Swing Line",
         "appliesTo": "Valkyr",
         "slug": "swing_line",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Eternal War",
         "appliesTo": "Valkyr",
         "slug": "eternal_war",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2246,7 +2246,7 @@
         "name": "Hysterical Assault",
         "appliesTo": "Valkyr",
         "slug": "hysterical_assault",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -2260,21 +2260,21 @@
         "name": "Tesla Bank",
         "appliesTo": "Vauban",
         "slug": "tesla_bank",
-        "lowestPrice": 11,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Repelling Bastille",
         "appliesTo": "Vauban",
         "slug": "repelling_bastille",
-        "lowestPrice": 11,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Photon Repeater",
         "appliesTo": "Vauban",
         "slug": "photon_repeater",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -2295,28 +2295,28 @@
         "name": "Reroot Rampage",
         "appliesTo": "Nokko",
         "slug": "reroot_rampage",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Secura Dual Cestra",
         "appliesTo": null,
         "slug": "secura_dual_cestra",
-        "lowestPrice": 32,
+        "lowestPrice": 35,
         "tradeCount": 0
       },
       {
         "name": "Secura Penta",
         "appliesTo": null,
         "slug": "secura_penta",
-        "lowestPrice": 29,
+        "lowestPrice": 40,
         "tradeCount": 0
       },
       {
         "name": "Secura Lecta",
         "appliesTo": null,
         "slug": "secura_lecta",
-        "lowestPrice": 33,
+        "lowestPrice": 29,
         "tradeCount": 0
       },
       {
@@ -2344,7 +2344,7 @@
         "name": "Ambulas Arena Simulacrum",
         "appliesTo": null,
         "slug": "ambulas_arena_simulacrum",
-        "lowestPrice": null,
+        "lowestPrice": 45,
         "tradeCount": 0
       },
       {
@@ -2367,49 +2367,49 @@
         "name": "Kaszas Blade",
         "appliesTo": null,
         "slug": "kaszas_blade",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Velocitus Stock",
         "appliesTo": null,
         "slug": "velocitus_stock",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Rathbone Handle",
         "appliesTo": null,
         "slug": "rathbone_handle",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Agkuza Handle",
         "appliesTo": null,
         "slug": "agkuza_handle",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Fluctus Limbs",
         "appliesTo": null,
         "slug": "fluctus_limbs",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Gleaming Blight",
         "appliesTo": "Dark Dagger",
         "slug": "gleaming_blight",
-        "lowestPrice": 12,
+        "lowestPrice": 7,
         "tradeCount": 0
       },
       {
         "name": "Eroding Blight",
         "appliesTo": "Embolist",
         "slug": "eroding_blight",
-        "lowestPrice": 8,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2423,21 +2423,21 @@
         "name": "Toxic Blight",
         "appliesTo": "Mire",
         "slug": "toxic_blight",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Seeking Shuriken",
         "appliesTo": "Ash",
         "slug": "seeking_shuriken",
-        "lowestPrice": 7,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Smoke Shadow",
         "appliesTo": "Ash",
         "slug": "smoke_shadow",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
@@ -2465,21 +2465,21 @@
         "name": "Tectonic Fracture",
         "appliesTo": "Atlas",
         "slug": "tectonic_fracture",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Ore Gaze",
         "appliesTo": "Atlas",
         "slug": "ore_gaze",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Titanic Rumbler",
         "appliesTo": "Atlas",
         "slug": "titanic_rumbler",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -2493,56 +2493,56 @@
         "name": "Prismatic Companion",
         "appliesTo": "Citrine",
         "slug": "prismatic_companion",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Recrystalize",
         "appliesTo": "Citrine",
         "slug": "recrystalize",
-        "lowestPrice": 11,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Spectral Spirit",
         "appliesTo": "Dagath",
         "slug": "spectral_spirit",
-        "lowestPrice": 13,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Fireball Frenzy",
         "appliesTo": "Ember",
         "slug": "fireball_frenzy",
-        "lowestPrice": 12,
+        "lowestPrice": 20,
         "tradeCount": 0
       },
       {
         "name": "Immolated Radiance",
         "appliesTo": "Ember",
         "slug": "immolated_radiance",
-        "lowestPrice": 14,
+        "lowestPrice": 25,
         "tradeCount": 0
       },
       {
         "name": "Healing Flame",
         "appliesTo": "Ember",
         "slug": "healing_flame",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Exothermic",
         "appliesTo": "Ember",
         "slug": "exothermic",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Warrior's Rest",
         "appliesTo": "Excalibur Umbra",
         "slug": "warriors_rest",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
@@ -2577,14 +2577,14 @@
         "name": "Hearty Nourishment",
         "appliesTo": "Grendel",
         "slug": "hearty_nourishment",
-        "lowestPrice": 12,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
         "name": "Catapult",
         "appliesTo": "Grendel",
         "slug": "catapult",
-        "lowestPrice": 14,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2598,28 +2598,28 @@
         "name": "Tribunal",
         "appliesTo": "Harrow",
         "slug": "tribunal",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Warding Thurible",
         "appliesTo": "Harrow",
         "slug": "warding_thurible",
-        "lowestPrice": 20,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Lasting Covenant",
         "appliesTo": "Harrow",
         "slug": "lasting_covenant",
-        "lowestPrice": 8,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Jade's Judgment",
         "appliesTo": "Jade",
         "slug": "jades_judgment",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2640,21 +2640,21 @@
         "name": "Pilfering Strangledome",
         "appliesTo": "Khora",
         "slug": "pilfering_strangledome",
-        "lowestPrice": 8,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
         "name": "Swift Bite",
         "appliesTo": "Lavos",
         "slug": "swift_bite",
-        "lowestPrice": 12,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Lingering Transmutation",
         "appliesTo": "Lavos",
         "slug": "lingering_transmutation",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -2668,7 +2668,7 @@
         "name": "Damage Decoy",
         "appliesTo": "Loki",
         "slug": "damage_decoy",
-        "lowestPrice": 20,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -2682,14 +2682,14 @@
         "name": "Safeguard Switch",
         "appliesTo": "Loki",
         "slug": "safeguard_switch",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Irradiating Disarm",
         "appliesTo": "Loki",
         "slug": "irradiating_disarm",
-        "lowestPrice": 9,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -2717,14 +2717,14 @@
         "name": "Mesa's Waltz",
         "appliesTo": "Mesa",
         "slug": "mesas_waltz",
-        "lowestPrice": 7,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Soul Survivor",
         "appliesTo": "Nekros",
         "slug": "soul_survivor",
-        "lowestPrice": 12,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -2745,28 +2745,28 @@
         "name": "Shield of Shadows",
         "appliesTo": "Nekros",
         "slug": "shield_of_shadows",
-        "lowestPrice": 12,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Venom Dose",
         "appliesTo": "Saryn",
         "slug": "venom_dose",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Revealing Spores",
         "appliesTo": "Saryn",
         "slug": "revealing_spores",
-        "lowestPrice": 9,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Regenerative Molt",
         "appliesTo": "Saryn",
         "slug": "regenerative_molt",
-        "lowestPrice": 11,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -2780,14 +2780,14 @@
         "name": "Spellbound Harvest",
         "appliesTo": "Titania",
         "slug": "spellbound_harvest",
-        "lowestPrice": 9,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Beguiling Lantern",
         "appliesTo": "Titania",
         "slug": "beguiling_lantern",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -2815,7 +2815,7 @@
         "name": "Shocking Speed",
         "appliesTo": "Volt",
         "slug": "shocking_speed",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2829,7 +2829,7 @@
         "name": "Capacitance",
         "appliesTo": "Volt",
         "slug": "capacitance",
-        "lowestPrice": 15,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
@@ -2850,14 +2850,14 @@
         "name": "Target Fixation",
         "appliesTo": "Zephyr",
         "slug": "target_fixation",
-        "lowestPrice": 13,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Airburst Rounds",
         "appliesTo": "Zephyr",
         "slug": "airburst_rounds",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -2871,28 +2871,28 @@
         "name": "Funnel Clouds",
         "appliesTo": "Zephyr",
         "slug": "funnel_clouds",
-        "lowestPrice": 15,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Reroot Rampage",
         "appliesTo": "Nokko",
         "slug": "reroot_rampage",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Anchored Glide",
         "appliesTo": "Zephyr",
         "slug": "anchored_glide",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Rakta Ballistica",
         "appliesTo": null,
         "slug": "rakta_ballistica",
-        "lowestPrice": 30,
+        "lowestPrice": 35,
         "tradeCount": 0
       },
       {
@@ -2906,7 +2906,7 @@
         "name": "Rakta Dark Dagger",
         "appliesTo": null,
         "slug": "rakta_dark_dagger",
-        "lowestPrice": 28,
+        "lowestPrice": 29,
         "tradeCount": 0
       },
       {
@@ -2920,21 +2920,21 @@
         "name": "Red Veil Engineering Emote",
         "appliesTo": null,
         "slug": "red_veil_engineering_emote",
-        "lowestPrice": 50,
+        "lowestPrice": 140,
         "tradeCount": 0
       },
       {
         "name": "Red Veil Piloting Emote",
         "appliesTo": null,
         "slug": "red_veil_piloting_emote",
-        "lowestPrice": null,
+        "lowestPrice": 140,
         "tradeCount": 0
       },
       {
         "name": "Red Veil Temple Simulacrum",
         "appliesTo": null,
         "slug": "red_veil_temple_simulacrum",
-        "lowestPrice": null,
+        "lowestPrice": 140,
         "tradeCount": 0
       },
       {
@@ -2964,14 +2964,14 @@
         "name": "Phaedra Stock",
         "appliesTo": null,
         "slug": "phaedra_stock",
-        "lowestPrice": 20,
+        "lowestPrice": 40,
         "tradeCount": 0
       },
       {
         "name": "Rathbone Head",
         "appliesTo": null,
         "slug": "rathbone_head",
-        "lowestPrice": 13,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
@@ -2999,49 +2999,49 @@
         "name": "Disarming Purity",
         "appliesTo": "Panthera",
         "slug": "disarming_purity",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Bright Purity",
         "appliesTo": "Skana",
         "slug": "bright_purity",
-        "lowestPrice": 8,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Lasting Purity",
         "appliesTo": "Vulkar",
         "slug": "lasting_purity",
-        "lowestPrice": 13,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Elusive Retribution",
         "appliesTo": "Baruuk",
         "slug": "elusive_retribution",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Endless Lullaby",
         "appliesTo": "Baruuk",
         "slug": "endless_lullaby",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Reactive Storm",
         "appliesTo": "Baruuk",
         "slug": "reactive_storm",
-        "lowestPrice": 9,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Duality",
         "appliesTo": "Equinox",
         "slug": "duality",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -3055,21 +3055,21 @@
         "name": "Peaceful Provocation",
         "appliesTo": "Equinox",
         "slug": "peaceful_provocation",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Energy Transfer",
         "appliesTo": "Equinox",
         "slug": "energy_transfer",
-        "lowestPrice": 15,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Shattered Storm",
         "appliesTo": "Gara",
         "slug": "shattered_storm",
-        "lowestPrice": 13,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
@@ -3083,21 +3083,21 @@
         "name": "Spectrosiphon",
         "appliesTo": "Gara",
         "slug": "spectrosiphon",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Viral Tempest",
         "appliesTo": "Hydroid",
         "slug": "viral_tempest",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Tidal Impunity",
         "appliesTo": "Hydroid",
         "slug": "tidal_impunity",
-        "lowestPrice": 15,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -3111,14 +3111,14 @@
         "name": "Pilfering Swarm",
         "appliesTo": "Hydroid",
         "slug": "pilfering_swarm",
-        "lowestPrice": 11,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Omikuji's Fortune",
         "appliesTo": "Koumei",
         "slug": "omikujis_fortune",
-        "lowestPrice": 12,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -3139,49 +3139,49 @@
         "name": "Swift Bite",
         "appliesTo": "Lavos",
         "slug": "swift_bite",
-        "lowestPrice": 12,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Lingering Transmutation",
         "appliesTo": "Lavos",
         "slug": "lingering_transmutation",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Greedy Pull",
         "appliesTo": "Mag",
         "slug": "greedy_pull",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Magnetized Discharge",
         "appliesTo": "Mag",
         "slug": "magnetized_discharge",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Counter Pulse",
         "appliesTo": "Mag",
         "slug": "counter_pulse",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Fracturing Crush",
         "appliesTo": "Mag",
         "slug": "fracturing_crush",
-        "lowestPrice": 12,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Mind Freak",
         "appliesTo": "Nyx",
         "slug": "mind_freak",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -3195,7 +3195,7 @@
         "name": "Chaos Sphere",
         "appliesTo": "Nyx",
         "slug": "chaos_sphere",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -3216,14 +3216,14 @@
         "name": "Hallowed Eruption",
         "appliesTo": "Oberon",
         "slug": "hallowed_eruption",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Phoenix Renewal",
         "appliesTo": "Oberon",
         "slug": "phoenix_renewal",
-        "lowestPrice": 10,
+        "lowestPrice": 7,
         "tradeCount": 0
       },
       {
@@ -3237,7 +3237,7 @@
         "name": "Partitioned Mallet",
         "appliesTo": "Octavia",
         "slug": "partitioned_mallet",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -3251,14 +3251,14 @@
         "name": "Spellbound Harvest",
         "appliesTo": "Titania",
         "slug": "spellbound_harvest",
-        "lowestPrice": 9,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Beguiling Lantern",
         "appliesTo": "Titania",
         "slug": "beguiling_lantern",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -3279,28 +3279,28 @@
         "name": "Axios Javelineers",
         "appliesTo": "Styanax",
         "slug": "axios_javelineers",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Tharros Lethality",
         "appliesTo": "Styanax",
         "slug": "tharros_lethality",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Intrepid Stand",
         "appliesTo": "Styanax",
         "slug": "intrepid_stand",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Pool Of Life",
         "appliesTo": "Trinity",
         "slug": "pool_of_life",
-        "lowestPrice": 14,
+        "lowestPrice": 18,
         "tradeCount": 0
       },
       {
@@ -3314,7 +3314,7 @@
         "name": "Abating Link",
         "appliesTo": "Trinity",
         "slug": "abating_link",
-        "lowestPrice": 10,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -3328,14 +3328,14 @@
         "name": "Swing Line",
         "appliesTo": "Valkyr",
         "slug": "swing_line",
-        "lowestPrice": 10,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Eternal War",
         "appliesTo": "Valkyr",
         "slug": "eternal_war",
-        "lowestPrice": 9,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -3349,7 +3349,7 @@
         "name": "Hysterical Assault",
         "appliesTo": "Valkyr",
         "slug": "hysterical_assault",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -3363,14 +3363,14 @@
         "name": "Fused Reservoir",
         "appliesTo": "Wisp",
         "slug": "fused_reservoir",
-        "lowestPrice": 8,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Critical Surge",
         "appliesTo": "Wisp",
         "slug": "critical_surge",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -3384,14 +3384,14 @@
         "name": "Target Fixation",
         "appliesTo": "Zephyr",
         "slug": "target_fixation",
-        "lowestPrice": 13,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Airburst Rounds",
         "appliesTo": "Zephyr",
         "slug": "airburst_rounds",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -3405,28 +3405,28 @@
         "name": "Funnel Clouds",
         "appliesTo": "Zephyr",
         "slug": "funnel_clouds",
-        "lowestPrice": 15,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
         "name": "Anchored Glide",
         "appliesTo": "Zephyr",
         "slug": "anchored_glide",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Celestial Stomp",
         "appliesTo": "Wukong",
         "slug": "celestial_stomp",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Enveloping Cloud",
         "appliesTo": "Wukong",
         "slug": "enveloping_cloud",
-        "lowestPrice": 12,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -3440,14 +3440,14 @@
         "name": "Merulina Guardian",
         "appliesTo": "Yareli",
         "slug": "merulina_guardian",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
         "name": "Loyal Merulina",
         "appliesTo": "Yareli",
         "slug": "loyal_merulina",
-        "lowestPrice": 10,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -3461,35 +3461,35 @@
         "name": "Rhythm Guard",
         "appliesTo": "Temple",
         "slug": "rhythm_guard",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
         "name": "Kumihimo Loading",
         "appliesTo": "Koumei",
         "slug": "kumihimo_loading",
-        "lowestPrice": 14,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Sancti Castanas",
         "appliesTo": null,
         "slug": "sancti_castanas",
-        "lowestPrice": 40,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
         "name": "Sancti Tigris",
         "appliesTo": null,
         "slug": "sancti_tigris",
-        "lowestPrice": 33,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
         "name": "Sancti Magistar",
         "appliesTo": null,
         "slug": "sancti_magistar",
-        "lowestPrice": 28,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
@@ -3531,7 +3531,7 @@
         "name": "Moonlit Courtyard Simulacrum",
         "appliesTo": null,
         "slug": "moonlit_courtyard_simulacrum",
-        "lowestPrice": 75,
+        "lowestPrice": 44,
         "tradeCount": 0
       },
       {
@@ -3561,21 +3561,21 @@
         "name": "Madurai Transmute Core",
         "appliesTo": null,
         "slug": "madurai_transmute_core",
-        "lowestPrice": 24,
+        "lowestPrice": 25,
         "tradeCount": 0
       },
       {
         "name": "Vazarin Transmute Core",
         "appliesTo": null,
         "slug": "vazarin_transmute_core",
-        "lowestPrice": 24,
+        "lowestPrice": 25,
         "tradeCount": 0
       },
       {
         "name": "Naramon Transmute Core",
         "appliesTo": null,
         "slug": "naramon_transmute_core",
-        "lowestPrice": 24,
+        "lowestPrice": 25,
         "tradeCount": 0
       },
       {
@@ -3610,14 +3610,14 @@
         "name": "Looter",
         "appliesTo": null,
         "slug": "looter",
-        "lowestPrice": 48,
+        "lowestPrice": 49,
         "tradeCount": 0
       },
       {
         "name": "Detect Vulnerability",
         "appliesTo": null,
         "slug": "detect_vulnerability",
-        "lowestPrice": 48,
+        "lowestPrice": 60,
         "tradeCount": 0
       },
       {
@@ -3638,21 +3638,21 @@
         "name": "Ambush",
         "appliesTo": null,
         "slug": "ambush",
-        "lowestPrice": 50,
+        "lowestPrice": 57,
         "tradeCount": 0
       },
       {
         "name": "Energy Generator",
         "appliesTo": null,
         "slug": "energy_generator",
-        "lowestPrice": 45,
+        "lowestPrice": 44,
         "tradeCount": 0
       },
       {
         "name": "Botanist",
         "appliesTo": null,
         "slug": "botanist",
-        "lowestPrice": 55,
+        "lowestPrice": 50,
         "tradeCount": 0
       },
       {
@@ -3666,14 +3666,14 @@
         "name": "Health Conversion",
         "appliesTo": null,
         "slug": "health_conversion",
-        "lowestPrice": 54,
+        "lowestPrice": 55,
         "tradeCount": 0
       },
       {
         "name": "Astral Autopsy",
         "appliesTo": null,
         "slug": "astral_autopsy",
-        "lowestPrice": 65,
+        "lowestPrice": 70,
         "tradeCount": 0
       },
       {
@@ -3778,7 +3778,7 @@
         "name": "War Hilt",
         "appliesTo": null,
         "slug": "war_hilt",
-        "lowestPrice": 2,
+        "lowestPrice": 1,
         "tradeCount": 0
       },
       {
@@ -3878,7 +3878,7 @@
         "name": "Maximum Capacity",
         "appliesTo": null,
         "slug": "maximum_capacity",
-        "lowestPrice": null,
+        "lowestPrice": 75,
         "tradeCount": 0
       },
       {
@@ -4116,21 +4116,21 @@
         "name": "Reflex Draw",
         "appliesTo": null,
         "slug": "reflex_draw",
-        "lowestPrice": 1,
+        "lowestPrice": 3,
         "tradeCount": 0
       },
       {
         "name": "Twitch",
         "appliesTo": null,
         "slug": "twitch",
-        "lowestPrice": 4,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
         "name": "Soft Hands",
         "appliesTo": null,
         "slug": "soft_hands",
-        "lowestPrice": 1,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
@@ -4207,7 +4207,7 @@
         "name": "Counterweight",
         "appliesTo": null,
         "slug": "counterweight",
-        "lowestPrice": 30,
+        "lowestPrice": null,
         "tradeCount": 0
       },
       {
@@ -4221,28 +4221,28 @@
         "name": "Sharpened Blade",
         "appliesTo": null,
         "slug": "sharpened_blade",
-        "lowestPrice": 40,
+        "lowestPrice": 30,
         "tradeCount": 0
       },
       {
         "name": "Spry Sights",
         "appliesTo": null,
         "slug": "spry_sights",
-        "lowestPrice": 6,
+        "lowestPrice": 3,
         "tradeCount": 0
       },
       {
         "name": "Agile Aim",
         "appliesTo": null,
         "slug": "agile_aim",
-        "lowestPrice": 1,
+        "lowestPrice": 4,
         "tradeCount": 0
       },
       {
         "name": "Snap Shot",
         "appliesTo": null,
         "slug": "snap_shot",
-        "lowestPrice": 1,
+        "lowestPrice": 4,
         "tradeCount": 0
       },
       {
@@ -4256,7 +4256,7 @@
         "name": "Overview",
         "appliesTo": null,
         "slug": "overview",
-        "lowestPrice": 3,
+        "lowestPrice": 2,
         "tradeCount": 0
       },
       {
@@ -4312,7 +4312,7 @@
         "name": "Tactical Reload",
         "appliesTo": null,
         "slug": "tactical_reload",
-        "lowestPrice": 4,
+        "lowestPrice": 3,
         "tradeCount": 0
       },
       {
@@ -4354,7 +4354,7 @@
         "name": "Strafing Slide",
         "appliesTo": null,
         "slug": "strafing_slide",
-        "lowestPrice": 3,
+        "lowestPrice": 2,
         "tradeCount": 0
       },
       {
@@ -4424,14 +4424,14 @@
         "name": "Afterburn",
         "appliesTo": null,
         "slug": "afterburn",
-        "lowestPrice": 10,
+        "lowestPrice": 9,
         "tradeCount": 0
       },
       {
         "name": "Rumbled",
         "appliesTo": null,
         "slug": "rumbled",
-        "lowestPrice": 10,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
@@ -4445,14 +4445,14 @@
         "name": "Deceptive Bond",
         "appliesTo": null,
         "slug": "deceptive_bond",
-        "lowestPrice": 10,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Prism Guard",
         "appliesTo": null,
         "slug": "prism_guard",
-        "lowestPrice": 12,
+        "lowestPrice": 13,
         "tradeCount": 0
       },
       {
@@ -4480,21 +4480,21 @@
         "name": "Power of Three",
         "appliesTo": null,
         "slug": "power_of_three",
-        "lowestPrice": 9,
+        "lowestPrice": 5,
         "tradeCount": 0
       },
       {
         "name": "Mesa's Waltz",
         "appliesTo": null,
         "slug": "mesas_waltz",
-        "lowestPrice": 7,
+        "lowestPrice": 8,
         "tradeCount": 0
       },
       {
         "name": "Purging Slash",
         "appliesTo": null,
         "slug": "purging_slash",
-        "lowestPrice": 9,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -4508,7 +4508,7 @@
         "name": "Ice Wave Impedance",
         "appliesTo": null,
         "slug": "ice_wave_impedance",
-        "lowestPrice": 14,
+        "lowestPrice": 15,
         "tradeCount": 0
       },
       {
@@ -4536,7 +4536,7 @@
         "name": "Iron Shrapnel",
         "appliesTo": null,
         "slug": "iron_shrapnel",
-        "lowestPrice": 7,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -4550,7 +4550,7 @@
         "name": "Recharge Barrier",
         "appliesTo": null,
         "slug": "recharge_barrier",
-        "lowestPrice": 16,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -4564,7 +4564,7 @@
         "name": "Purifying Flames",
         "appliesTo": null,
         "slug": "purifying_flames",
-        "lowestPrice": 15,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -4734,7 +4734,7 @@
         "name": "Damaged Necramech Casing",
         "appliesTo": null,
         "slug": "damaged_necramech_casing",
-        "lowestPrice": 2,
+        "lowestPrice": 1,
         "tradeCount": 0
       },
       {
@@ -4748,7 +4748,7 @@
         "name": "Damaged Necramech Pod",
         "appliesTo": null,
         "slug": "damaged_necramech_pod",
-        "lowestPrice": 4,
+        "lowestPrice": 3,
         "tradeCount": 0
       },
       {
@@ -4783,14 +4783,14 @@
         "name": "Damzav-Vati",
         "appliesTo": "Akbronco Prime",
         "slug": "damzav_vati",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
         "name": "Zazvat-Kar",
         "appliesTo": "Akstiletto Prime",
         "slug": "zazvat_kar",
-        "lowestPrice": 13,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
@@ -4804,7 +4804,7 @@
         "name": "Hata-Satya",
         "appliesTo": "Soma Prime",
         "slug": "hata_satya",
-        "lowestPrice": 13,
+        "lowestPrice": 14,
         "tradeCount": 0
       },
       {
@@ -4944,21 +4944,21 @@
         "name": "Seismic Bond",
         "appliesTo": "Companion",
         "slug": "seismic_bond",
-        "lowestPrice": 10,
+        "lowestPrice": 11,
         "tradeCount": 0
       },
       {
         "name": "Contagious Bond",
         "appliesTo": "Companion",
         "slug": "contagious_bond",
-        "lowestPrice": 11,
+        "lowestPrice": 10,
         "tradeCount": 0
       },
       {
         "name": "Duplex Bond",
         "appliesTo": "Companion",
         "slug": "duplex_bond",
-        "lowestPrice": 10,
+        "lowestPrice": 12,
         "tradeCount": 0
       },
       {
@@ -5989,28 +5989,28 @@
         "name": "Cascadia Accuracy",
         "appliesTo": null,
         "slug": "cascadia_accuracy",
-        "lowestPrice": 2,
+        "lowestPrice": 1,
         "tradeCount": 0
       },
       {
         "name": "Fractalized Reset",
         "appliesTo": null,
         "slug": "fractalized_reset",
-        "lowestPrice": 2,
+        "lowestPrice": 1,
         "tradeCount": 0
       },
       {
         "name": "Molt Vigor",
         "appliesTo": null,
         "slug": "molt_vigor",
-        "lowestPrice": 2,
+        "lowestPrice": 1,
         "tradeCount": 0
       },
       {
         "name": "Emergence Savior",
         "appliesTo": null,
         "slug": "emergence_savior",
-        "lowestPrice": 2,
+        "lowestPrice": 1,
         "tradeCount": 0
       },
       {
